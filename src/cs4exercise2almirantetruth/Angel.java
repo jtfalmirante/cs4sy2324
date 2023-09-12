@@ -5,18 +5,17 @@
  */
 package cs4exercise2almirantetruth;
 
-/**
- *
- * @author TRUTH
- */
 public class Angel {
     String name;
+    String appearance;
+    int victims;
     
-    /**
-     * @param args the command line arguments
-     */
+    public void leech() {
+        int victims = victims + 1;
+    }
+   
     public static void main(String[] args) {
-        // TODO code application logic here
+        
     }
     
 }
